@@ -6,7 +6,7 @@ header{
 }
 
 h1 {
-    background-color: ;
+    background-color:cornflowerblue;
     color: white;
     font-family: Calibri;
 }
@@ -21,7 +21,7 @@ p {
 body, html {
     height: 100%;
     margin: 0;
-    font-family: ;
+    font-family:Arial;
 }
 
 .tablink {
@@ -47,6 +47,6 @@ body, html {
     height: 100%;
 }
 
-#Start {background-color: #353535;}
-#Galery {background-color: #2B303A;}
-#About {background-color: #394648;}
+#Home {background-color: #353535;}
+#Gallerie {background-color: #2B303A;}
+#Überuns {background-color: #394648;}
