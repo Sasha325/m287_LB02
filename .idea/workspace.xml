@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="affc1553-bba6-4d6f-844e-0985cee35139" name="Default Changelist" comment="" />
+    <list default="true" id="affc1553-bba6-4d6f-844e-0985cee35139" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +54,7 @@
       <workItem from="1625614377360" duration="4000" />
       <workItem from="1625817701137" duration="2319000" />
       <workItem from="1625913146027" duration="34893000" />
-      <workItem from="1626073926847" duration="441000" />
+      <workItem from="1626073926847" duration="696000" />
     </task>
     <task id="LOCAL-00001" summary="gilian">
       <created>1625575903850</created>
@@ -96,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626074396058</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Home, Galerie Fertig überarbeitet">
+      <created>1626074433641</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626074433641</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
