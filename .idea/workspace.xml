@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="affc1553-bba6-4d6f-844e-0985cee35139" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galerie.css" beforeDir="false" afterPath="$PROJECT_DIR$/galerie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galerie.html" beforeDir="false" afterPath="$PROJECT_DIR$/galerie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uberuns/uberuns.css" beforeDir="false" afterPath="$PROJECT_DIR$/uberuns.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uberuns/uberuns.html" beforeDir="false" afterPath="$PROJECT_DIR$/uberuns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uberuns.html" beforeDir="false" afterPath="$PROJECT_DIR$/uberuns.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +156,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gilian" />
