@@ -2,10 +2,8 @@
     margin:0;
     padding:0;
 }
-.header{
 
-    height:100vh;
-}
+
 
 .navbar-style{
 
@@ -22,7 +20,9 @@
 
     background: darkorange;
 }
-
+main{
+    padding-bottom: 300px;
+}
 
 li a{
 
@@ -31,6 +31,9 @@ li a{
 p{
     font-size: 21px;
     font-weight: lighter;
+}
+.titel2{
+   margin-bottom: 100px;
 }
 
 .big-text{
@@ -78,7 +81,6 @@ a.btn:hover{
 
 
 /* Footer*/
-
 
 
 
@@ -172,6 +174,7 @@ a.btn:hover{
     font-size:13px;
     margin-bottom:0;
 }
+
 
 
 
