@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="affc1553-bba6-4d6f-844e-0985cee35139" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/uberuns/uberuns.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uberuns/uberuns.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galerie.css" beforeDir="false" afterPath="$PROJECT_DIR$/galerie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +58,8 @@
       <workItem from="1625614377360" duration="4000" />
       <workItem from="1625817701137" duration="2319000" />
       <workItem from="1625913146027" duration="34893000" />
-      <workItem from="1626073926847" duration="696000" />
+      <workItem from="1626073926847" duration="813000" />
+      <workItem from="1626075194398" duration="153000" />
     </task>
     <task id="LOCAL-00001" summary="gilian">
       <created>1625575903850</created>
@@ -105,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626074433641</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Home, Galerie Fertig überarbeitet, uberuns directory">
+      <created>1626075079144</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626075079144</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +129,7 @@
     <MESSAGE value="website new Startseite fertig" />
     <MESSAGE value="Home, Galerie Fertig" />
     <MESSAGE value="Home, Galerie Fertig überarbeitet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home, Galerie Fertig überarbeitet" />
+    <MESSAGE value="Home, Galerie Fertig überarbeitet, uberuns directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home, Galerie Fertig überarbeitet, uberuns directory" />
   </component>
 </project>
