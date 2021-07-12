@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="affc1553-bba6-4d6f-844e-0985cee35139" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1uwKdEh7o3cXXIGir1wMINyhj7h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="affc1553-bba6-4d6f-844e-0985cee35139" name="Default Changelist" comment="" />
+      <created>1625571298244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625571298244</updated>
+      <workItem from="1625571299800" duration="63000" />
+      <workItem from="1625575790386" duration="638000" />
+      <workItem from="1625614377360" duration="4000" />
+      <workItem from="1625817701137" duration="2319000" />
+      <workItem from="1625913146027" duration="34893000" />
+      <workItem from="1626073926847" duration="813000" />
+      <workItem from="1626075194398" duration="1933000" />
+    </task>
+    <task id="LOCAL-00001" summary="gilian">
+      <created>1625575903850</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625575903850</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Website richtige id's">
+      <created>1625828787493</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625828787493</updated>
+    </task>
+    <task id="LOCAL-00003" summary="website new Startseite fertig">
+      <created>1625930806114</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625930806114</updated>
+    </task>
+    <task id="LOCAL-00004" summary="website new Startseite fertig">
+      <created>1625930836099</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625930836099</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Home, Galerie Fertig">
+      <created>1626073065377</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626073065377</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Home, Galerie Fertig überarbeitet">
+      <created>1626074396058</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626074396058</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Home, Galerie Fertig überarbeitet">
+      <created>1626074433641</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626074433641</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Home, Galerie Fertig überarbeitet, uberuns directory">
+      <created>1626075079144</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626075079144</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Home, Galerie Fertig überarbeitet, uberuns directory (no errors)">
+      <created>1626075403946</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1626075403946</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Home, Galerie Fertig überarbeitet, uberuns directory (no errors)">
+      <created>1626075708557</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1626075708557</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Home, Galerie Fertig überarbeitet, uberuns directory (no errors) new">
+      <created>1626075800433</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1626075800433</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Home, Galerie Fertig überarbeitet, uberuns directory (no errors) new">
+      <created>1626076633341</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1626076633341</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gilian" />
+    <MESSAGE value="Website richtige id's" />
+    <MESSAGE value="website new Startseite fertig" />
+    <MESSAGE value="Home, Galerie Fertig" />
+    <MESSAGE value="Home, Galerie Fertig überarbeitet" />
+    <MESSAGE value="Home, Galerie Fertig überarbeitet, uberuns directory" />
+    <MESSAGE value="Home, Galerie Fertig überarbeitet, uberuns directory (no errors)" />
+    <MESSAGE value="Home, Galerie Fertig überarbeitet, uberuns directory (no errors) new" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home, Galerie Fertig überarbeitet, uberuns directory (no errors) new" />
+  </component>
+</project>
