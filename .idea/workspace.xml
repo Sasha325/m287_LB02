@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="affc1553-bba6-4d6f-844e-0985cee35139" name="Default Changelist" comment="">
+    <list default="true" id="affc1553-bba6-4d6f-844e-0985cee35139" name="Default Changelist" comment="svg image hinzugefügt">
+      <change afterPath="$PROJECT_DIR$/images/sneaker_images/Element 3.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galerie.html" beforeDir="false" afterPath="$PROJECT_DIR$/galerie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uberuns.html" beforeDir="false" afterPath="$PROJECT_DIR$/uberuns.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +45,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\laris\OneDrive - Bildungszentrum Zürichsee\ICT\m287\m287_LB02\images\sneaker_images" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -157,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626122282367</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="svg image in ordner">
+      <created>1626166279335</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1626166279335</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +192,8 @@
     <MESSAGE value="Home, Galerie Fertig überarbeitet, uberuns directory (no errors)" />
     <MESSAGE value="Home, Galerie Fertig überarbeitet, uberuns directory (no errors) new" />
     <MESSAGE value="Namen auf Rechtschreibung angepasst" />
-    <option name="LAST_COMMIT_MESSAGE" value="Namen auf Rechtschreibung angepasst" />
+    <MESSAGE value="svg image in ordner" />
+    <MESSAGE value="svg image hinzugefügt" />
+    <option name="LAST_COMMIT_MESSAGE" value="svg image hinzugefügt" />
   </component>
 </project>
