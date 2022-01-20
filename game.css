@@ -21,7 +21,7 @@
     0%{left:400px}
     100%{left:-50px}
 }
-#loch {
+#loch{
     width: 50px;
     height: 150px;
     background-color: white;
@@ -29,4 +29,13 @@
     left: 400px;
     top: -500px;
     animation: block 2s infinite linear;
+}
+
+#charakter{
+    width: 20px;
+    height: 20px;
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 100px;
+    border-radius:50%;
 }
