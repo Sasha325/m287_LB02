@@ -1,29 +1,9 @@
-/* Import Google Font - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 0 10px;
-    background: orange;
-}
-::selection{
-    color: #fff;
-    background: orange;
-}
 .wrapper{
-    width: 370px;
     padding: 30px;
     border-radius: 7px;
-    background: #fff;
-    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
+    left: 0;
+    right: 0;
 }
 .wrapper header{
     font-size: 28px;
@@ -39,25 +19,15 @@ form :where(input[type="text"], select, button){
     border-radius: 5px;
     border: none;
 }
-form p{
-    font-size: 18px;
-    margin-bottom: 5px;
-}
 form input{
     height: 50px;
     font-size: 17px;
     padding: 0 15px;
     border: 1px solid #999;
 }
-form input:focus{
-    padding: 0 14px;
-    border: 2px solid orange;
-}
 
 form input[type="radio"]{
-    height: 30px;
-    font-size: 17px;
-    border: 1px solid #999;
+    height: 40px;
 }
 
 form .drop-list{
@@ -85,36 +55,16 @@ form .drop-list{
     background: none;
     margin: 0 -5px 0 5px;
 }
-.select-box select::-webkit-scrollbar{
-    width: 8px;
-}
-.select-box select::-webkit-scrollbar-track{
-    background: #fff;
-}
-.select-box select::-webkit-scrollbar-thumb{
-    background: #888;
-    border-radius: 8px;
-    border-right: 2px solid #ffffff;
-}
-.drop-list .icon{
-    cursor: pointer;
-    margin-top: 30px;
-    font-size: 22px;
-}
-form .exchange-rate{
-    font-size: 17px;
-    margin: 20px 0 30px;
-}
+
 form button{
     height: 52px;
     color: #fff;
     font-size: 17px;
     cursor: pointer;
     background: orange;
-    transition: 0.3s ease;
 }
 form button:hover{
-    background: orange;
+    background: #efc164;
 }
 
 .input-container{
