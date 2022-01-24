@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="converter.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="wrapper">
+    <header>Shoe Size Converter</header>
+    <form action="#">
+        <div class="drop-list">
+            <div class="from-region">
+                <p>From</p>
+                <div class="select-box">
+                    <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+                    <select>
+                        <option value="us">US</option>
+                        <option value="uk">UK</option>
+                        <option value="eu">EU</option>
+                    </select>
+                </div>
+            </div>
+            <div class="to-region">
+                <p>To</p>
+                <div class="select-box">
+                    <img src="https://flagcdn.com/48x36/eu.png" alt="flag">
+                    <select>
+                        <option value="us">US</option>
+                        <option value="uk">UK</option>
+                        <option value="eu" selected>EU</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="input-container">
+            <input type="radio" id="men" name="sex" value="men"
+                   checked>
+            <label for="men">men</label>
+            <input type="radio" id="women" name="sex" value="women">
+            <label for="women">women</label>
+            <input type="radio" id="kids" name="sex" value="kids">
+            <label for="kids">kids</label>
+        </div>
+        <div class="drop-list">
+            <div class="from">
+                <div class="select-box">
+                    <select class="sizes"> <!-- Options tag are inserted from JavaScript --> </select>
+                </div>
+            </div>
+            <div class="to">
+                <div class="select-box" id="result">
+                </div>
+            </div>
+        </div>
+        <button>Get Shoe Size</button>
+    </form>
+</div>
+
+<script src="sizes.js"></script>
+<script src="converter.js"></script>
+
+</body>
+</html>
