@@ -1,14 +1,12 @@
-const dropList = document.querySelectorAll(".sizes"),
-  fromSize = document.querySelector(".from select"),
-  getButton = document.querySelector("form button");
-fromRegion = document.querySelector(".from-region select");
-toRegion = document.querySelector(".to-region select");
+const fromSize = document.querySelector(".from select");
+const getButton = document.querySelector("form button");
+const fromRegion = document.querySelector(".from-region select");
+const toRegion = document.querySelector(".to-region select");
+const convertableRegions = document.getElementsByClassName("convertable-regions");
 sexSelectors = document.getElementsByName("sex");
-convertableRegions = document.getElementsByClassName("convertable-regions");
-console.log(convertableRegions)
 
 let sex = "men";
-let from = "us";
+let from = "us";6
 let size = sizes[sex][0][from];
 let to = "eu";
 
@@ -20,7 +18,7 @@ fromSize.addEventListener("change", (e) => {
 
 fromRegion.addEventListener("change", (e) => {
   from = e.target.value;
-  computeFromSizes();
+  computeSizes();
   loadFlag(e.target);
 });
 
@@ -36,35 +34,40 @@ getButton.addEventListener("click", (e) => {
 
 function computeRegions() {
   const parsedRegions = JSON.parse(regions);
-    let optionTag;
-  console.log(parsedRegions);
-  for (let i=0; i<2; i++){
-      for (const key in parsedRegions) {
-          if (i===1 && key==='eu') {
-              optionTag = `<option value="${key}" selected>${parsedRegions[key]}</option>`;
-          }else{
-              optionTag = `<option value="${key}">${parsedRegions[key]}</option>`;
-          }
-        convertableRegions[i].insertAdjacentHTML("beforeend", optionTag);
+  let optionTag;
+  for (let i = 0; i < 2; i++) {
+    for (const key in parsedRegions) {
+      if (i === 1 && key === "eu") {
+        optionTag = `<option value="${key}" selected>${parsedRegions[key]}</option>`;
+      } else {
+        optionTag = `<option value="${key}">${parsedRegions[key]}</option>`;
       }
+      convertableRegions[i].insertAdjacentHTML("beforeend", optionTag);
+    }
   }
 }
 
-function computeFromSizes() {
+// computes and inserts available sizes from sizes.js into the size selector dropdown
+function computeSizes() {
+  //removes all children of the sizes dropdown DOM element
   while (fromSize.lastElementChild) {
     fromSize.removeChild(fromSize.lastElementChild);
   }
 
+  // array that contains all sizes that will display in dropdown
   let sizesArray = [];
 
   sizes[sex].forEach((i) => {
     sizesArray.push(i[from]);
   });
+  // create Set and spread into array to remove duplicates
   sizesArray = [...new Set(sizesArray)];
   for (let index in sizesArray) {
     let optionTag = `<option value="${sizesArray[index]}">${sizesArray[index]}</option>`;
+    //insert option tag into DOM
     fromSize.insertAdjacentHTML("beforeend", optionTag);
   }
+  // set size as first element in array
   size = sizesArray[0];
 }
 
@@ -100,12 +103,16 @@ function getShoeSize() {
   resultField.innerText = computeToSize();
 }
 
+// iterate over sex selectors and attach eventLstener + functions that should be performed
 for (let i = 0; i < sexSelectors.length; i++) {
   sexSelectors[i].addEventListener("click", () => {
+    // find which sex is selected and set sex = the selected radio input
     getRadioVals();
-    computeFromSizes();
+    // compute the sizes and display them in the dropdown
+    computeSizes();
   });
 }
 
-computeRegions()
-computeFromSizes();
+// when first rendering the page run these two functions to fill in the regions and sizes
+computeRegions();
+computeSizes();
