@@ -19,7 +19,7 @@ function submitHandler(e) {
 
   if (!nameIsTrue) {
     window.alert(
-      "Your first name does not consist only of letters. Please change!"
+      "Dein Vorname enthält andere Zeichen als nur Buchstaben. Bitte ändern!"
     );
     return;
   }
@@ -28,15 +28,15 @@ function submitHandler(e) {
 
   if (!lastNameIsTrue) {
     window.alert(
-      "Your Last name does not consist only of letters. Please change!"
+      "Dein Nachname enthält andere Zeichen als nur Buchstaben. Bitte ändern!"
     );
     return;
   }
 
-  const emailIsTrue = validateEmail(formDataObj.email);
+  const messageIsTrue = validateMessage(formDataObj.message);
 
-  if (!emailIsTrue) {
-    window.alert("Deine Email enthält kein @ Zeichen. Please change!");
+  if (!messageIsTrue) {
+    window.alert("Deine Nachricht ist länger als 200 Zeichen. Bitte ändern!");
     return;
   }
 
