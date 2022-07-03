@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <title>Sneakerworld</title>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" type="text/css" href="converter.css"/>
+    <link rel="stylesheet" type="text/css" href="kontakt.css"/>
     <!-- Latest compiled and minified CSS -->
     <link
             rel="stylesheet"
@@ -53,10 +53,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 banner-info">
-                    <h1>Find your size</h1>
+                    <h1>Kontaktiere uns</h1>
                     <p class="titel2">
-                        Finde mit unserm neuen Size Converter heraus, welche Grösse
-                        du in anderen Ländern benötigst.
+                        Hast du eine Frage, eine Offerte oder ein anderes Anliegen, dann kontaktiere uns!
                     </p>
                 </div>
             </div>
@@ -64,57 +63,38 @@
                 <div class="col-sm-12 banner-info">
                     <div class="col-sm-4"></div>
                     <div class="wrapper col-sm-4">
-                        <header>Shoe Size Converter</header>
-                        <form action="#">
-                            <div class="drop-list">
-                                <div class="from-region">
-                                    <p>From</p>
-                                    <div class="select-box">
-                                        <img src="https://flagcdn.com/48x36/us.png" alt="flag"/>
-                                        <select class="convertable-regions">
-
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="to-region">
-                                    <p>To</p>
-                                    <div class="select-box">
-                                        <img src="https://flagcdn.com/48x36/eu.png" alt="flag"/>
-                                        <select class="convertable-regions">
-                                            <!-- Options tag are inserted from JavaScript (regions)-->
-                                        </select>
-                                    </div>
-                                </div>
+                        <header>Frageformular</header>
+                        <form action="#" id="kontakt-formular">
+                            <div>
+                                <label for="firstName">Vorname</label>
+                                <input id="firstName" name="firstName" type="text" />
                             </div>
-                            <div class="input-container">
-                                <input type="radio" id="men" name="sex" value="men" checked/>
-                                <label for="men">men</label>
-                                <input type="radio" id="women" name="sex" value="women"/>
-                                <label for="women">women</label>
-                                <input type="radio" id="kids" name="sex" value="kids"/>
-                                <label for="kids">kids</label>
+                            <div>
+                                <label for="lastName">Nachname</label>
+                                <input id="lastName" name="lastName" type="text" />
                             </div>
-                            <div class="drop-list">
-                                <div class="from">
-                                    <div class="select-box">
-                                        <select class="sizes">
-                                            <!-- Options tag are inserted from JavaScript -->
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="to">
-                                    <div class="select-box" id="result">
-
-                                    </div>
-                                </div>
+                            <div>
+                                <label for="email">Email Adresse</label>
+                                <input id="email" name="email" type="email" />
                             </div>
-                            <button>Get Shoe Size</button>
+                            <div>
+                                <label for="reason">Dein Grund</label>
+                                <select id="reason" name="reason">
+                                    <option value="priceRequest">Ich habe ein Problem</option>
+                                    <option value="priceRequest">Ich habe eine generelle Frage</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="message">Deine Nachricht an uns</label>
+                                <textarea id="message" name="message"></textarea>
+                            </div>
+                            <input type="checkbox" name="agb" required/>
+                            <div style="display: inline; padding-left:8px">akzeptiere agbs</div>
+                            <button type="submit">Absenden</button>
                         </form>
                     </div>
-                    <div class="col-sm-4"></div>
 
-                    <script src="sizes.js"></script>
-                    <script src="converter.js"></script>
+                    <script type="module" src="kontakt.js"></script>
                 </div>
             </div>
         </div>
