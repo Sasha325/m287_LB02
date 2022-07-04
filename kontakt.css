@@ -253,3 +253,19 @@ input[type="checkbox"]{
     padding: 0;
     display: inline;
 }
+
+#message, #email, #reason, #firstName, #lastName {
+    margin-top: 2px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid blueviolet;
+}
+
+
+div{
+    margin-bottom: 10px;
+    position: relative;
+}
+
